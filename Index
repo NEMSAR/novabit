@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparecerá en la pestaña del navegador -->
+    <title>NovaBit Media Agency | Premium Digital Solutions</title>
+    
+    <!-- Favicon (El logo de NovaBit en la pestaña) -->
+    <link rel="icon" href="https://i.imgur.com/L7KmkwP.png" type="image/png">
+    
+    <style>
+        /* Reseteamos márgenes y evitamos el scroll en esta ventana base para evitar scroll doble */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            /* Usamos el color base de NovaBit para que no haya flashazos blancos mientras carga el iframe */
+            background-color: #080008; 
+        }
+        
+        /* El iframe ocupa toda la pantalla ocultando que es una web embebida */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+      INSTRUCCIONES PARA EL SOCIO:
+      Reemplaza "https://script.google.com/macros/s/AKfycbwRR83R8O22pD5N9V3j95Uaw2tew2y5tLl6GgxhWm_pSvGDSEdFrd3dH8JvDASxhatk/exec" con el enlace de tu NUEVA IMPLEMENTACIÓN 
+      de Google Apps Script (Recuerda usar el enlace público definitivo que termina en /exec)
+    -->
+    <iframe src="TU_ENLACE_DE_APPS_SCRIPT_AQUI" title="NovaBit Media Agency"></iframe>
+</body>
+</html>
